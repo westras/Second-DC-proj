@@ -1,7 +1,7 @@
 const documentElement = document.documentElement;
 const checkbox = document.getElementById('checkbox');
 const logbro = document.getElementById('loginscreen');
-const content = document.querySelector('.content'); // Get the content wrapper
+const content = document.querySelector('.content'); 
 
 // Initial state
 
