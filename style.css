@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body{
+  height:100dvh;
+  display:flex;
+  flex-direction:column;
+  
+}
+header{
+  height:5rem;
+  display:flex;
+  justify-content:right;
+  padding: 1rem;
+  background: #ff6e00;
+  font-family: "Libertinus Keyboard", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size:2.5rem; 
+}
+
+nav{
+  height: 3rem;
+  background:#000;
+  color:white;
+  padding: .7rem;
+  box-shadow:1px 1px 5px black;
+  font-family: "Libertinus Keyboard", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size:1.5rem;
+}
+
+.main{
+display:flex;
+flex-direction:column;
+padding: 2rem;
+  flex-grow:4;
+}
+
+section{
+  background: #eee;
+  border-radius: 1rem;
+}
+
+p {
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+
+footer{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: #ff6e00;
+  font-size:1.2rem;
+  color:rgb(0, 0, 0);
+  height: 4.5rem;
+  margin-bottom:0rem;
+  border-radius:0.3rem;
+  box-shadow:1px 1px 5px black;
+  font-family: "Libertinus Keyboard", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+article{
+  justify-content:center;
+  padding:1rem;
+  background: #0001;
+  border-radius:1rem;
+  box-shadow:1px 1px 5px black;
+}
+
+h1{
+  margin:1.2rem;
+  border-radius:1rem;
+  box-shadow:1px 1px 5px black;
+ text-align:center;
+  background: #0004
+}
+
+i{
+  color:#ff6e00;
+  font-style:normal;
+  background:#d3ac8b;
+  border-radius:0.5rem;
+  
+}
+i i{
+  color:green;
+}
