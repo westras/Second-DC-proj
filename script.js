@@ -6,11 +6,10 @@ const logbro = document.getElementById('loginscreen');
 
 checkbox.addEventListener('change', function() {
   if (this.checked) {
-    logbro=documentElement.classList.remove('hide-login');
-    logbro=documentElement.classList.add('show-login');
+    logbro.classList.remove('hide-login');
+    logbro.classList.add('show-login');
   } else {
-    logbro=documentElement.classList.add('hide-login');
-    logbro=documentElement.classList.remove('show-login');
+    logbro.classList.add('hide-login');
+    logbro.classList.remove('show-login');
   }
 });
-    
