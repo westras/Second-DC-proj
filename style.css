@@ -110,10 +110,11 @@ label:has(input:checked){
   font-weight:700;
 }
 
-.hide-login {  
+.hide-login {
   display:none;
 }
-.showed
-{
+
+show-login {
   display:block;
 }
+
